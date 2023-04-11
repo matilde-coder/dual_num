@@ -12,8 +12,10 @@ extern crate dual_num;
 See the examples in  ```examples/example1``` for the usage. 
 To run ```cargo run --example example1```.
 To have the crate dual_num in the dependencies write:
-```[dependencies]
-dual_num={git="https://github.com/matilde-coder/dual_num.git"}```  
+```rust
+[dependencies]
+dual_num={git="https://github.com/matilde-coder/dual_num.git"}
+```
 
 ##### Previous Work
 * [https://github.com/FreeFull/dual_numbers](https://github.com/FreeFull/dual_numbers)
